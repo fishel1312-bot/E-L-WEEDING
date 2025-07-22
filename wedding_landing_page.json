@@ -1,0 +1,67 @@
+{
+  "project": "Einav & Liav - Wedding Landing Page",
+  "metadata": {
+    "language": "English",
+    "responsive": true,
+    "theme": {
+      "primaryColor": "#eae3db",
+      "accentColor": "#7a5c3e",
+      "fontFamily": "Cormorant Garamond, serif"
+    }
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "content": {
+        "title": "Einav Bloom & Liav Fishel",
+        "subtitle": "We're getting married!",
+        "dateLocation": "20.9.2025 | Prague, Czech Republic",
+        "button": {
+          "label": "RSVP",
+          "action": "#rsvp"
+        }
+      },
+      "style": {
+        "backgroundImage": "url('https://example.com/prague-background.jpg')",
+        "alignment": "center"
+      }
+    },
+    {
+      "type": "timeline",
+      "title": "What's in Plan?",
+      "items": [
+        {
+          "time": "10:30",
+          "event": "Pickup from Iron Gate Hotel"
+        },
+        {
+          "time": "11:30",
+          "event": "Wedding Ceremony & Toast"
+        },
+        {
+          "time": "13:00",
+          "event": "Ride to Prague Center"
+        },
+        {
+          "time": "14:00",
+          "event": "Group Photoshoot at Pr\u016fhonice Castle"
+        },
+        {
+          "time": "16:30",
+          "event": "Reception at Augustine Hotel"
+        },
+        {
+          "time": "17:00",
+          "event": "Dinner Celebration"
+        }
+      ]
+    },
+    {
+      "type": "footer",
+      "content": {
+        "text": "We can't wait to celebrate with you! \ud83d\udc95",
+        "rsvpLink": "#rsvp"
+      }
+    }
+  ]
+}

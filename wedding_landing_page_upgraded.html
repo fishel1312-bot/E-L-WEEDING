@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Einav & Liav's Wedding</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #d4c1ad;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: #f7f0e8;
+      border: 2px solid #b2886b;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 50px 40px;
+      width: 90%;
+      max-width: 500px;
+      color: #814d2d;
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border: 1.5px solid #b2886b;
+      border-radius: 14px;
+      pointer-events: none;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .section-header {
+      text-align: center;
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      position: relative;
+      padding-left: 40px;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 17px;
+      bottom: 5px;
+      width: 2px;
+      background-image: linear-gradient(to bottom, #814d2d 33%, rgba(0,0,0,0) 0%);
+      background-position: right;
+      background-size: 2px 10px;
+      background-repeat: repeat-y;
+    }
+
+    .event {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .event-icon {
+      font-size: 20px;
+      margin-right: 15px;
+      margin-top: 2px;
+      width: 24px;
+      text-align: center;
+      color: #814d2d;
+    }
+
+    .event-details {
+      flex: 1;
+    }
+
+    .event-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 2px;
+    }
+
+    .event-time {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .event-sub {
+      font-size: 14px;
+      color: #5c3822;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="title">Einav Blum & Liav Fishel</div>
+    <div class="subtitle">Wedding Day Schedule</div>
+    <div class="section-header">What’s in Plan?</div>
+
+    <div class="timeline">
+      <div class="event">
+        <div class="event-icon">🚗</div>
+        <div class="event-details">
+          <div class="event-title">Pickup</div>
+          <div class="event-time">10:30</div>
+          <div class="event-sub">From Prague Center (Iron Gate Hotel)</div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-icon">💍</div>
+        <div class="event-details">
+          <div class="event-title">Wedding Ceremony</div>
+          <div class="event-time">11:30</div>
+          <div class="event-sub">+ Toast<br>+ Ride back to Prague Center</div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-icon">📸</div>
+        <div class="event-details">
+          <div class="event-title">Group Photoshoot</div>
+          <div class="event-sub">Průhonice Castle / Park</div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-icon">🥂</div>
+        <div class="event-details">
+          <div class="event-title">Wedding Reception</div>
+          <div class="event-time">16:30</div>
+          <div class="event-sub">Augustine Luxury Hotel, Sundial Garden</div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-icon">🍽️</div>
+        <div class="event-details">
+          <div class="event-title">Dinner Celebration</div>
+          <div class="event-time">17:00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">We can’t wait to celebrate with you!</div>
+  </div>
+</body>
+</html>
